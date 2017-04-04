@@ -21,6 +21,7 @@ void switchCase(int a, int b)
     scanf("%d", input);
 
     switch(input) {
+            //fixed break and continue
 
         case 1:
             printf("%d + %d is %d", a, b, a+b);
