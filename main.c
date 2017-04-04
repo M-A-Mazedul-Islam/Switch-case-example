@@ -7,7 +7,7 @@ int main() {
     int a,b;
 
     printf("Enter the value of two numbers.");
-    scanf("%d%d", a,b);
+    scanf("%d%d", &a, &b);
 
     switchCase(a,b);
     return 0;
