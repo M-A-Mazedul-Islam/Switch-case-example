@@ -27,13 +27,17 @@ void switchCase(int a, int b)
             break;
         case 2:
             printf("%d - %d is %d", a, b, a-b);
+            break;
         case 3:
             printf("%d * %d is %d", a,b, a*b);
+             break;
         case 4:
             printf("%d / %d is %d", a,b, a/b);
+             break;
         default:
             printf("Wrong choice!");
             switchCase(a, b);
+            continue;
     }
 
 
